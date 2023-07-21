@@ -1,6 +1,34 @@
-.email-content{
-    padding: 4rem;
-    background-color: white;
-    width: 70%;
-    height: 80vh;
+.email-content {
+  padding: 2rem;
+  background-color: white;
+  width: 55vw;
+  height: 80vh;
+  color: #636363;
+  letter-spacing: 0.7px;
+  font-size: 0.9rem;
+  overflow-y: auto;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.fav {
+  background-color: #e54065;
+  height: 1.8rem;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
+.date{
+    padding: 0.8rem 4rem ;
+}
+.content{
+    padding: 0.8rem 4rem ;
 }

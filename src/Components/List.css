@@ -1,23 +1,22 @@
 .list {
     display: flex;
-    gap: 2rem;
+    gap: 1rem; 
 }
 .list-item{
     display: flex;
     border: 1px solid #cfd2dc;
-    gap: 1rem; 
     width: 90%;
+    gap: 1rem; 
     padding: 1rem;
     margin-left:3.2rem;
     margin-bottom: 1.5rem;
     border-radius: 0.5rem;
     background-color: white;
+    cursor: pointer;
 } 
 .list-item.selected{
     background-color: #f2f2f2;
 }
-
-
 
 .list-details {
  color: #636363;
@@ -43,4 +42,14 @@
 
 .loading{
    text-align: center;
+}
+.email-box-full{
+    width: 100vw;
+}
+.email-box-half{
+    width: 40vw;
+}
+
+.isRead {
+    background-color: #f2f2f2;
 }
