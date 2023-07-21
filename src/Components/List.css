@@ -1,0 +1,46 @@
+.list {
+    display: flex;
+    gap: 2rem;
+}
+.list-item{
+    display: flex;
+    border: 1px solid #cfd2dc;
+    gap: 1rem; 
+    width: 90%;
+    padding: 1rem;
+    margin-left:3.2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: white;
+} 
+.list-item.selected{
+    background-color: #f2f2f2;
+}
+
+
+
+.list-details {
+ color: #636363;
+ letter-spacing: 0.7px;
+ font-size: 0.9rem;
+}
+
+.favourite{
+    color: #e54065;
+    margin-left: 3rem;
+}
+
+.status{
+    display: flex;
+}
+
+.mb-1{
+    margin-bottom: 0.8rem;
+}
+.mb-small{
+    margin-bottom: 0.3rem;
+}
+
+.loading{
+   text-align: center;
+}
