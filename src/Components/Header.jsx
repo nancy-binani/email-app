@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Header.css";
+import "../styles/Header.css";
 
 const Header = ({ setSelectedState, setShowEmail }) => {
   const [selected, setSelected] = useState("unread");

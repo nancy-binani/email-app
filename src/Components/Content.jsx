@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Content.css";
+import "../styles/Content.css";
 import formatDate from "../utils";
 const Content = ({ emailContent, setFavourite, currentEmail, setFavIds }) => {
   const [loading, setLoading] = useState(true);

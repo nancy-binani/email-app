@@ -53,3 +53,7 @@
 .isRead {
     background-color: #f2f2f2;
 }
+
+.no-data{
+    text-align: center;
+}

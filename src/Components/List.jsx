@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./List.css";
+import "../styles/List.css";
 import Header from "./Header";
 import formatDate from "../utils";
 import Content from "./Content";
@@ -76,7 +76,7 @@ const List = () => {
   return (
     <>
       <Header selectedState={selectedState} setSelectedState={setSelectedState} showEmail={showEmail} setShowEmail={setShowEmail}/>
-      <div className="list">
+      {emailList.length > 0 ?  <div className="list">
         <div className={`${showEmail ? "email-box-half" : "email-box-full"}`}>
           {emailList.map((email) => {
             return (
@@ -112,7 +112,7 @@ const List = () => {
         {showEmail && (
           <Content emailContent={emailContent} favourite={favourite} setFavourite={setFavourite} currentEmail={currentEmail} setFavIds={setFavIds}/>
         )}
-      </div>
+      </div> : <h1 className="no-data">No data found!!!</h1>}
     </>
   );
 };
